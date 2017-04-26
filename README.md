@@ -1,6 +1,6 @@
 # npmtest-robotjs
 
-#### test coverage for  [robotjs (v0.4.7)](https://github.com/octalmage/robotjs)  [![npm package](https://img.shields.io/npm/v/npmtest-robotjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-robotjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-robotjs.svg)](https://travis-ci.org/npmtest/node-npmtest-robotjs)
+#### basic test coverage for  [robotjs (v0.4.7)](https://github.com/octalmage/robotjs)  [![npm package](https://img.shields.io/npm/v/npmtest-robotjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-robotjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-robotjs.svg)](https://travis-ci.org/npmtest/node-npmtest-robotjs)
 
 #### Node.js Desktop Automation.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-robotjs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-robotjs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-robotjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-robotjs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-robotjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-robotjs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-robotjs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-robotjs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-robotjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-robotjs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-robotjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-robotjs/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
         "test": "node test/all.js"
     },
     "typings": "index.d.ts",
-    "version": "0.4.7"
+    "version": "0.4.7",
+    "bin": {}
 }
 ```
 
